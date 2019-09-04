@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: sans-serif;
+  }
+.board {
+    width: 612px; background: #f0f0f0;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 3px;
+    display: grid;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.box {
+    background: #fff; display: flex; justify-content: center; align-items: center;
+    font-size: 2rem; color: #222;
+}
+.box:hover {
+    background: #fafafa;
+}
